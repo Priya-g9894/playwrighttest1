@@ -1,0 +1,167 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Priyadharshini G\\Playwright\\playwright.config.ts",
+    "rootDir": "C:/Users/Priyadharshini G/Playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Priyadharshini G/Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Priyadharshini G/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Priyadharshini G/Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/Priyadharshini G/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/Priyadharshini G/Playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/Priyadharshini G/Playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.59.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "uiactions.spec.ts",
+      "file": "uiactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@Priya @Sanity enteringValues",
+          "ok": true,
+          "tags": [
+            "Priya",
+            "Sanity"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25469,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "coimbatore\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-11T11:01:08.563Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\Priyadharshini G\\Playwright\\test-results\\uiactions--Priya-Sanity-enteringValues-firefox\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Priyadharshini G\\Playwright\\test-results\\uiactions--Priya-Sanity-enteringValues-firefox\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7f5c195302cb2b977bfd-ca2967bb68c1dc752b01",
+          "file": "uiactions.spec.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-11T11:01:07.552Z",
+    "duration": 19876.96,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
