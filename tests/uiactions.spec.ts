@@ -12,7 +12,7 @@ await buttons.clicks()
 await page.pause()
 })
 
-test("@Priyaaaa @Sanity enteringValues", async({page})=>{
+test("@Priyaa @Sanity enteringValues", async({page})=>{
 const textbox= new Textbox(page)
 const utils=new Utils(page)
 await utils.launchUrl("https://demoqa.com/text-box")
