@@ -28,7 +28,7 @@ await upload.downloadAction()
 
 })
 
-test.only("dragedAndDropped", async({page})=>{
+test("dragedAndDropped", async({page})=>{
 const droppable= new Droppable(page)
 const utils=new Utils(page)
 await utils.launchUrl("https://demoqa.com/droppable")
